@@ -13,6 +13,18 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        inter: ["Inter", "system-ui", "-apple-system", "sans-serif"],
+      },
+      backgroundImage: {
+        "gradient-mesh":
+          "linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #4facfe 100%)",
+        "gradient-aurora":
+          "linear-gradient(45deg, #00c6ff, #0072ff, #9400d3, #ff6ec7, #ff9a9e)",
+        "gradient-sunset":
+          "linear-gradient(135deg, #fa709a 0%, #fee140 50%, #fa709a 100%)",
+        "gradient-ocean": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
